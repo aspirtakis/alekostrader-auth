@@ -17,13 +17,13 @@ const ALK_TOKEN = {
   mint: 'FD2imiDmjYDrh4A66JWKLvrrSLXvZh5Jep1Kx67Z6WXu',
   decimals: 6,
   treasuryWallet: process.env.ALK_TREASURY_WALLET || '',
-  // ALK prices per tier (adjust based on market rate)
+  // ALK prices per tier (1 ALK ≈ $0.01, prices in USD equivalent x100)
   prices: {
-    viewer: 1500,     // 1,500 ALK
-    starter: 5000,    // 5,000 ALK
-    basic: 7000,      // 7,000 ALK
-    pro: 15000,       // 15,000 ALK
-    unlimited: 25000  // 25,000 ALK
+    viewer: 3000,     // ~$30
+    starter: 10000,   // ~$100
+    basic: 13000,     // ~$130
+    pro: 27500,       // ~$275
+    unlimited: 44000  // ~$440
   }
 };
 
