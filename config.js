@@ -22,6 +22,7 @@ module.exports = {
   CORS_ORIGINS: [
     'https://alekos.devsoundfusion.com',
     'https://alekosbot.com',
+    'https://www.alekosbot.com',
     'http://localhost:3000',
     'http://localhost:3001',
     'http://localhost:5173'
