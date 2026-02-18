@@ -41,7 +41,7 @@ module.exports = {
   // Email configuration (Migadu SMTP)
   EMAIL_HOST: process.env.EMAIL_HOST || 'smtp.migadu.com',
   EMAIL_PORT: process.env.EMAIL_PORT || 465,
-  EMAIL_USER: process.env.EMAIL_USER || '',
+  EMAIL_USER: process.env.EMAIL_USER || 'info@alekosbot.com',
   EMAIL_PASS: process.env.EMAIL_PASS || '',
-  EMAIL_FROM: process.env.EMAIL_FROM || 'noreply@alekosbot.com'
+  EMAIL_FROM: process.env.EMAIL_FROM || 'info@alekosbot.com'
 };
